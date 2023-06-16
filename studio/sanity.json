@@ -1,5 +1,9 @@
 {
   "root": true,
+  "api": {
+    "projectId": "i5epcvu6",
+    "dataset": "production"
+  },
   "project": {
     "name": "Next.js Comment-enabled blog",
     "basePath": "/studio"
@@ -14,7 +18,9 @@
   ],
   "env": {
     "development": {
-      "plugins": ["@sanity/vision"]
+      "plugins": [
+        "@sanity/vision"
+      ]
     }
   },
   "parts": [
