@@ -20,11 +20,22 @@
     "@sanity/image-url": "^1.0.1",
     "classnames": "^2.3.2",
     "date-fns": "^2.29.3",
+    "emailjs-com": "^3.2.0",
+    "emotion": "^11.0.0",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "framer-motion": "^10.12.16",
+    "gsap": "^3.11.5",
+    "howler": "^2.2.3",
+    "nodemailer": "^6.9.3",
     "next": "^12.3.2",
     "next-sanity": "^0.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.39.1"
+    "react-hook-form": "^7.39.1",
+    "react-icons": "^4.9.0",
+    "react-sound": "^1.2.0",
+    "smartlook-client": "^8.1.0"
   },
   "devDependencies": {
     "@sanity/cli": "^2.35.0",
