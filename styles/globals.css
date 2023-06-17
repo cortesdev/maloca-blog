@@ -265,13 +265,21 @@ body {
 }
 
 .circle {
-    width: 100px;
-    height: 100px;
+
     background: radial-gradient(#ff0062, #aa054d);
     border-radius: 30% 70% 63% 37% / 30% 30% 70% 70%;
     position: absolute;
     animation: logo 1.2s infinite alternate;
-    z-index: -1;
+    /* z-index: -1; */
+}
+
+
+.circleBig {
+    background: radial-gradient(#191b3e, #1f214c);
+    border-radius: 30% 70% 63% 37% / 30% 30% 70% 70%;
+    position: absolute;
+    animation: logo 1.2s infinite alternate;
+    /* z-index: -1; */
 }
 
 .logoAnimation {

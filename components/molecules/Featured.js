@@ -6,13 +6,14 @@ export const Featured = () => {
             <div className="text-center flex flex-col my-32 w-full">
                 <div className="flex justify-center">
                     <div className="max-w-[700px] text-center w-full ">
-                        <h2 className="text-center text-5xl mb-10 font-bold">
+                        <h2 className="text-center text-7xl my-10 text-center mx-auto  mb-10 font-bold">
                             Maloca family
                         </h2>
-                        <p className="mb-16 text-neutral-200 sm:max-w-[500px] mx-auto">
-                            Minus fuga aliquid vero facere ducimus quos, quisquam nemo?
-                            Molestias ullam provident vitae error aliquam dolorum temporibus?
-                            Doloremque, quasi
+                        <p className="mb-16  text-2xl  text-neutral-200 sm:max-w-[500px] md:max-w-[80%] mx-auto">
+                            Maloca family idea came out quite spontaneously,
+                            Members of Sarjeta started to gather with ideas of uniting collaborative workforce
+                            to really leverage musicians gathering in Berlin.
+                            Merging black migrant collectives towards a more democratic music space.
                         </p>
                     </div>
                 </div>

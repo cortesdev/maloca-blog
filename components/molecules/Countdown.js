@@ -33,7 +33,7 @@ const Countdown = ({ targetDate }) => {
 
     return (
         <div className='flex mx-auto flex-col align-center text-center orbitron relative'>
-            <h2 className=' text-2xl md:text-3xl mb-6 '>Countdown</h2>
+            <h2 className=' text-2xl md:text-7xl mb-20 text-center mx-auto   '>Countdown</h2>
             <p className='countdown-title text-3xl md:text-8xl fade-in h-[60px]'>{countdown}</p>
 
             <img src="/waves.svg" className="absolute top-3 mx-auto scale-x-1" alt="waves brand home" width="100%" height={450} />

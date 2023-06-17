@@ -21,8 +21,8 @@ const Article = () => {
                             className="featured-img mb-32  flex flex-col flex-no-wrap items-stretch flex-1 backdrop-blur-md"
                             key={index}
                         >
-                            <div className="circle"></div>
-                            <div className="circle"></div>
+                            <div className="circle  z-[-1] w-[150px] h-[150px]"></div>
+                            <div className="circle  z-[-1] w-[100px] h-[100px]"></div>
                             <div className="cards-inner py-6 flex flex-col px-6">
                                 <img src={news.src}
                                     className="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
