@@ -12,7 +12,7 @@ import { Maloca } from '../components/organisms/Maloca';
 import Faq from '../components/organisms/Faq';
 import { Form } from '../components/molecules/Form';
 import Countdown from '../components/molecules/Countdown';
-import { inter, orbitron, maloca } from '../utils/fonts';
+// import { inter, orbitron, maloca } from '../utils/fonts';
 import Article from '../components/molecules/Article';
 import { Featured } from '../components/molecules/Featured';
 import { AboutGrid } from '../components/molecules/AboutGrid';
@@ -68,13 +68,13 @@ export default function Hello() {
         <Head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
-        <style jsx global>{`
+        {/* <style jsx global>{`
         :root {
           --orbitron-font: ${orbitron.style.fontFamily};
           --inter-font: ${inter.style.fontFamily};
           --maloca-font: ${maloca.style.fontFamily};
         }
-      `}</style>
+      `}</style> */}
         <main>
             {/* <MobileNav /> */}
 

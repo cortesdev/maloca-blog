@@ -38,13 +38,13 @@ export default function Index({ allPosts, preview }) {
         <Head>
           <title>Welcome to {CMS_NAME}</title>
         </Head>
-        <style style jsx global> {`
+        {/* <style style jsx global> {`
         :root {
           --orbitron-font: ${orbitron.style.fontFamily};
           --inter-font: ${inter.style.fontFamily};
           --maloca-font: ${maloca.style.fontFamily};
         }
-      `}</style >
+      `}</style > */}
         <Container>
           <Loader />
         </Container>

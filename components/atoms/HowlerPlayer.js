@@ -12,7 +12,7 @@ const HowlerPlayer = () => {
     // Create a new Howl instance if it doesn't exist
     if (!soundRef.current) {
         soundRef.current = new Howl({
-            src: ['/saudosa-inst.mp3'], // Replace with the path to your audio file
+            src: ['https://cdn.sanity.io/files/i5epcvu6/production/be02bb6fb35a32cc76faf8cd9580a04d6a54f955.mp3'], // Replace with the path to your audio file
             html5: true, // Use HTML5 audio mode
         });
     }

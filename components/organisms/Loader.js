@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import Countdown from "../molecules/Countdown";
-import { Orbitron } from 'next/font/google'
+// import { Orbitron } from 'next/font/google'
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { SiVercel } from 'react-icons/si';
 import { useState, useEffect } from "react";
 import TriangleBlack from "../atoms/TriangleBlack";
 import HowlerPlayer from "../atoms/HowlerPlayer";
 
-const orbitron = Orbitron({ subsets: ['latin'] })
+// const orbitron = Orbitron({ subsets: ['latin'] })
 
 
 export const Loader = () => {
@@ -56,7 +56,10 @@ export const Loader = () => {
 
                     <div className="flex flex-col mt-[40px] items-center justify-between  ">
 
-                        <div className={`${orbitron.className} flex mx-auto mb-4`}>
+                        {/* ${orbitron.className}  */}
+                        <div
+                            className={`
+                        flex mx-auto mb-4`}>
                             <Countdown targetDate={targetDate} />
                         </div>
 

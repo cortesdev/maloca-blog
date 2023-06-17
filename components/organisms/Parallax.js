@@ -127,7 +127,7 @@ function Parallax() {
                 <img alt="montain" ref={mountain3} className='mountain-3' src="/parallax/mountain-3.svg" />
                 <img alt="montain" ref={mountain2} className='mountain-2' src="/parallax/mountain-2.svg" />
                 <img alt="montain" ref={mountain1} className='mountain-1' src="/parallax/mountain-1.svg" />
-                <img alt="sun" ref={sun} className='sun' src="/parallax/sun.png" />
+                <img alt="sun" ref={sun} className='sun' src="/parallax/sun.svg" />
 
                 <MovingClouds imageSrc="/parallax/cloud6.png" delay={0} speed={0.009} position={0} />
                 <MovingClouds imageSrc="/parallax/cloud5.png" delay={0} speed={0.01} position={0} />

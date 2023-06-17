@@ -21,13 +21,13 @@ export default function Production() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
 
-        <style jsx global>{`
+        {/* <style jsx global>{`
             :root {
             --orbitron-font: ${orbitron.style.fontFamily};
             --inter-font: ${inter.style.fontFamily};
             --maloca-font: ${maloca.style.fontFamily};
             }
-      `}</style>
+      `}</style> */}
         <main>
             {/* <FollowDiv /> */}
 
